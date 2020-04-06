@@ -1,0 +1,5 @@
+<launch>
+	<node name="align_over_block_server" pkg="mbz2020_ibvs" type="align_over_block_server" output="screen"/>
+    <node name="corner_detector" pkg="mbz2020_ibvs" type="corner_detector_sim" output="screen"/>
+    <rosparam file="$(find mbz2020_ibvs)/param/sim_align_over_block.yaml" command="load" />
+</launch>

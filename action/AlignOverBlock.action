@@ -1,0 +1,11 @@
+# goal
+std_msgs/Header header
+std_msgs/Int32MultiArray corners
+std_msgs/Float64MultiArray z
+std_msgs/String execution_mode
+---
+# result
+bool is_converged
+---
+# feedback
+std_msgs/Float64 error

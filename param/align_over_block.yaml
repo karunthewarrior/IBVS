@@ -1,0 +1,24 @@
+ibvs/control_mode: 0
+ibvs/loop_rate: 30
+ibvs/z_estimate_topic: "/uav1/sf30/range"
+ibvs/velocity_command_topic: "/uav1/velocity_command"
+
+ibvs/drone_pickup/clip_threshold: [0.3, 0.3, 0.4, 0.1]
+ibvs/drone_pickup/convergence_threshold: 0.012
+ibvs/drone_pickup/convergence_time: 2
+ibvs/drone_pickup/block_zoffset: 0.2
+ibvs/drone_pickup/camera_info: [425.9859143133321, 0.0, 323.92442473570503, 0.0, 425.61236783743783, 186.75429920705312, 0.0, 0.0, 1.0]
+ibvs/drone_pickup/corners_topic: "/uav1/ibvs_corners"
+ibvs/drone_pickup/num_image_points: 4
+ibvs/drone_pickup/gain_K: [0.67,0.3]
+ibvs/drone_pickup/timeout: 30
+
+ibvs/drone_placement/clip_threshold: [0.15, 0.15, 0.3, 0.1]
+ibvs/drone_placement/convergence_threshold: 0.02
+ibvs/drone_placement/convergence_time: 2
+ibvs/drone_placement/block_zoffset: 0
+ibvs/drone_placement/camera_info: [281.02470924842874, 0.0, 289.6077439481604, 0.0, 283.1230614668184, 237.01036123787785, 0.0, 0.0, 1.0]
+ibvs/drone_placement/corners_topic: "/uav1/ibvs_structure_corners"
+ibvs/drone_placement/num_image_points: 2
+ibvs/drone_placement/gain_K: [0.65,0.3]
+ibvs/drone_placement/timeout: 80
